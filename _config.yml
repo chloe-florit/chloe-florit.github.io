@@ -5,7 +5,15 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   Second description 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">LinkedIn</a> 
+  <a href="https://www.linkedin.com/in/chloeflorit/">LinkedIn</a> 
+  "|"
+  <a href="mailto:chloe.florit@gmail.com">Email</a> 
+  "|"
+  <a href="https://github.com/chloe-florit">GitHub</a> 
+  "|"
+  <a href="pdf/recentCV-3">Resume</a> 
+  
+  
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
