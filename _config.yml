@@ -1,17 +1,20 @@
 title: Chloe Florit # your name (or website title) here
 logo: "/images/logo2.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
+  <p align = "center">
+      <a href="https://www.linkedin.com/in/chloeflorit/">LinkedIn</a> 
+      |
+      <a href="mailto:chloe.florit@gmail.com">Email</a> 
+      |
+      <a href="https://github.com/chloe-florit">GitHub</a> 
+      |
+      <a href="pdf/recentCV-3">Resume</a> 
+  </p>
   I am currently pursuing a Master in Data Science at UCI. I have a B.S. in Mathematics and Economics from UCLA.  
   <br><br>
   Second description 
   <br><br>
-  <a href="https://www.linkedin.com/in/chloeflorit/">LinkedIn</a> 
-  |
-  <a href="mailto:chloe.florit@gmail.com">Email</a> 
-  |
-  <a href="https://github.com/chloe-florit">GitHub</a> 
-  |
-  <a href="pdf/recentCV-3">Resume</a> 
+
   
   
   
