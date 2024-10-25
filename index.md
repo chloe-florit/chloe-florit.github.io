@@ -22,7 +22,9 @@
 <div class="display">
     {% include india-example.html %}
 </div>
-
+<p>
+  
+</p>
 
 <p>
   <strong>
