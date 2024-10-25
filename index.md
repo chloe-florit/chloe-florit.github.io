@@ -28,8 +28,9 @@
 <p>
   <strong>
     <em>Tools:</em>
-    SQL, Python
+    
   </strong>
+  SQL, Python
 </p>
 
 
