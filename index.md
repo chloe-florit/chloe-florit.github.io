@@ -20,7 +20,7 @@
 </p>
 
 <div class="display">
-    {% include images/india-example.html %}
+    {% include india-example.html %}
 </div>
 
 
