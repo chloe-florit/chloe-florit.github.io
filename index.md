@@ -4,7 +4,20 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[NOAA Climate Data](/sample_page)
+<p>
+  <strong>Project overview:</strong>
+  "In this project, I used NOAA climate data to analyze temperature trends across various global weather stations and developed a database to support interactive data visualizations. Using Python, SQL, and Plotly Express, I structured the data and crafted a database that enables users to query specific temperature records by country, date range, and month."
+
+</p>
+<p>
+  "After organizing the data, I wrote a query function to retrieve temperature data and a function to estimate yearly temperature increases at different stations. This function calculates linear temperature trends using linear regression on historical temperature data, producing a geographic scatter plot with points representing weather stations. The color intensity of each point reflects the estimated yearly increase in temperature at each station, creating a visual summary of warming trends over the specified period."
+
+</p>
+
+<p>
+  "The final output is an interactive map that allows users to observe temperature changes across various regions, effectively highlighting the impact of climate change through localized temperature trends."
+</p>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
