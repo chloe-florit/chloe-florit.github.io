@@ -18,7 +18,9 @@
 <p>
   The final output is an interactive map that allows users to observe temperature changes across various regions, effectively highlighting the impact of climate change through localized temperature trends.
 </p>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<div class="display">
+    {% include images/india-HW1-example.html %}
+</div>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
