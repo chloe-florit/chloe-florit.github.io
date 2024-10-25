@@ -66,7 +66,7 @@ Model Evaluation: The final model's performance was evaluated on a separate test
   <strong>
     <em>Technical skills:</em>
   </strong>
-  Tensorflow, deep learning, natural language processing,
+  Tensorflow, deep learning, natural language processing
 </p>
 <p>
   <strong>
