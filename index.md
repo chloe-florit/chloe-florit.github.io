@@ -19,6 +19,19 @@
   The final output is an interactive map that allows users to observe temperature changes across various regions, effectively highlighting the impact of climate change through localized temperature trends.
 </p>
 
+<p>
+  <strong>
+    <em>Technical skills:</em>
+  </strong>
+  regression
+</p>
+<p>
+  <strong>
+    <em>Tools:</em>
+    SQL, Python
+  </strong>
+</p>
+
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
