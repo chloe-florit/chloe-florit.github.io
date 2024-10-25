@@ -42,8 +42,40 @@
 
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Fake News Classification Model](/pdf/sample_presentation.pdf)
+
+<p>
+In this project, I developed a machine learning model to classify news articles as real or fake based on the content of their title, text, or a combination of both. Using a custom dataset, I implemented a function to preprocess the text by removing stopwords, producing a dataset with two inputs (title and text) and one output (fake or real label). The data was split into training and validation sets, with 20% reserved for validation, and a base rate of 53% was calculated as a benchmark.
+</p>
+<p>
+Three models were built using TensorFlow:
+</p>
+
+<ol>
+  <li><strong>Title-Only Model:</strong> Used only the article title as input, applied a text vectorization layer, embedding, dropout, and dense layers.</li>
+  <li><strong>Text-Only Model:</strong> Focused solely on the article text, incorporating similar preprocessing and layers as the title model.</li>
+  <li><strong>Combined Model:</strong> Utilized both title and text features, which were concatenated and processed through additional dense layers.</li>
+</ol>
+<p>
+Each model was trained over multiple epochs, with accuracy metrics recorded to compare effectiveness. The combined model, using both title and text, demonstrated superior accuracy in detecting fake news.
+</p>
+<p>
+Model Evaluation: The final model's performance was evaluated on a separate test dataset, achieving strong predictive accuracy. Additionally, I created an embedding visualization of frequently associated words in fake news, with notable terms like “liberal,” “conspiracy,” and “terrorists” clustering closely. This insight reveals thematic word patterns characteristic of fake news content.
+</p>
+<p>
+  <strong>
+    <em>Technical skills:</em>
+  </strong>
+  Tensorflow, deep learning, natural language processing,
+</p>
+<p>
+  <strong>
+    <em>Tools:</em>
+    
+  </strong>
+  Python
+</p>
+
 
 ---
 [Project 3 Title](http://example.com/)
