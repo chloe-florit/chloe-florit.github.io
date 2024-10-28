@@ -45,7 +45,7 @@
 [Fake News Classification Model](/pdf/sample_presentation.pdf)
 
 <p>
-In this project, I developed a machine learning model to classify news articles as real or fake based on the content of their title, text, or a combination of both. Using a custom dataset, I implemented a function to preprocess the text by removing stopwords, producing a dataset with two inputs (title and text) and one output (fake or real label). The data was split into training and validation sets, with 20% reserved for validation, and a base rate of 53% was calculated as a benchmark.
+In this project, I developed a machine learning model to classify news articles as real or fake based on the content of their title, text, or a combination of both.
 </p>
 <p>
 Three models were built using TensorFlow:
@@ -62,6 +62,10 @@ Each model was trained over multiple epochs, with accuracy metrics recorded to c
 <p>
 Model Evaluation: The final model's performance was evaluated on a separate test dataset, achieving strong predictive accuracy. Additionally, I created an embedding visualization of frequently associated words in fake news, with notable terms like “liberal,” “conspiracy,” and “terrorists” clustering closely. This insight reveals thematic word patterns characteristic of fake news content.
 </p>
+
+<div class="display">
+    {% include interactive_graph.html %}
+</div>
 <p>
   <strong>
     <em>Technical skills:</em>
