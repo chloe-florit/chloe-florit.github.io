@@ -63,13 +63,6 @@ Each model was trained over multiple epochs, with accuracy metrics recorded to c
 Model Evaluation: The final model's performance was evaluated on a separate test dataset, achieving strong predictive accuracy (98%). Additionally, I created an embedding visualization of frequently associated words in fake news, with notable terms like “liberal,” “conspiracy,” and “terrorists” clustering closely. This insight reveals thematic word patterns characteristic of fake news content.
 </p>
 
-<div class="display">
-    {% include interactive_graph.html %}
-</div>
-
-<p>
-  
-</p>
 
 <p>
   <strong>
