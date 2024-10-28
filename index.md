@@ -48,19 +48,19 @@
 In this project, I developed a machine learning model to classify news articles as real or fake based on the content of their title, text, or a combination of both.
 </p>
 <p>
-Three models were built using TensorFlow:
+I build three models using TensorFlow:
 </p>
 
 <ol>
   <li><strong>Title-Only Model:</strong> Used only the article title as input, applied a text vectorization layer, embedding, dropout, and dense layers.</li>
   <li><strong>Text-Only Model:</strong> Focused solely on the article text, incorporating similar preprocessing and layers as the title model.</li>
-  <li><strong>Combined Model:</strong> Utilized both title and text features, which were concatenated and processed through additional dense layers.</li>
+  <li><strong>Combined Model:</strong> Used both title and text features, which were concatenated and processed through additional dense layers.</li>
 </ol>
 <p>
 Each model was trained over multiple epochs, with accuracy metrics recorded to compare effectiveness. The combined model, using both title and text, demonstrated superior accuracy in detecting fake news.
 </p>
 <p>
-Model Evaluation: The final model's performance was evaluated on a separate test dataset, achieving strong predictive accuracy. Additionally, I created an embedding visualization of frequently associated words in fake news, with notable terms like “liberal,” “conspiracy,” and “terrorists” clustering closely. This insight reveals thematic word patterns characteristic of fake news content.
+Model Evaluation: The final model's performance was evaluated on a separate test dataset, achieving strong predictive accuracy (98%). Additionally, I created an embedding visualization of frequently associated words in fake news, with notable terms like “liberal,” “conspiracy,” and “terrorists” clustering closely. This insight reveals thematic word patterns characteristic of fake news content.
 </p>
 
 <div class="display">
