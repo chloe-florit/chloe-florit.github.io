@@ -64,7 +64,7 @@ Model Evaluation: The final model's performance was evaluated on a separate test
 </p>
 
 <div class="display">
-    {% include interactive_graph.html %}
+    {% include interactive_graph2.html %}
 </div>
 <p>
   
