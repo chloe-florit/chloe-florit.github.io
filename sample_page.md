@@ -4,7 +4,7 @@
 
 ### 1. Create a database
 
-## §1. Import modules and libraries
+### §1. Import modules and libraries
 
 ```python 
 import pandas as pd
@@ -14,7 +14,7 @@ from plotly import express as px
 from sklearn.linear_model import LinearRegression
 ```
 
-## §2. Import the datasets
+### §2. Import the datasets
 
 ```python
 temps = pd.read_csv("temps_stacked.csv")
@@ -24,20 +24,19 @@ countries = countries.rename(columns= {"FIPS 10-4": "FIPS_104"})# get rid of spa
 stations = pd.read_csv('station-metadata.csv')
 ```
 
-## §3. Convert datasets into SQL database
+### §3. Convert datasets into SQL database
 
  ```python
 conn = sqlite3.connect("temps.db")
 temps.to_sql("temperatures", conn, if_exists="replace", index=False)
 countries.to_sql("countries", conn, if_exists="replace", index=False)
 stations.to_sql("stations", conn, if_exists="replace", index=False)
-# always close your connection
 conn.close()
  ```
 
 ### 2. Write a query function
 
-## §1. Query function
+### §1. Query function
 The return value of `query_climate_database()` is a Pandas dataframe of temperature readings for the specified country, in the specified date range, in the specified month of the year. 
 
 ```python
@@ -61,7 +60,7 @@ def query_climate_database(country, year_begin, year_end, month):
     return(df)
 ```
 
-## §2. Call query function
+### §2. Call query function
 
 ```python
 query_climate_database(country = "India", 
@@ -72,7 +71,7 @@ query_climate_database(country = "India",
 
 ### 3. Write a Geographic Scatter Function for Yearly Temperature Increases
 
-## §1. Write a function called `temperature_coefficient_plot()`
+### §1. Write a function called `temperature_coefficient_plot()`
 
 The output of this function is an interactive geographic scatterplot, constructed using Plotly Express, with a point for each station, such that the color of the point reflects an estimate of the yearly change in temperature during the specified month and time period at that station. 
 
@@ -99,7 +98,6 @@ def temperature_coefficient_plot(country, year_begin, year_end, month, min_obs, 
     df['count']=df.groupby(['NAME',"Month"])['Year'].transform("count")
     df = df[df["count"]>min_obs]
 
-    # your old friend scikit-learn
     def coef(data_group):
       X = data_group[["Year"]]
       y = data_group["Temp"]
@@ -131,7 +129,7 @@ def temperature_coefficient_plot(country, year_begin, year_end, month, min_obs, 
     return(fig.show())
 ```
 
-## §2. Call the function to display geographic scatter plot
+### §2. Call the function to display geographic scatter plot
 
 ```python
 color_map = px.colors.diverging.RdGy_r
