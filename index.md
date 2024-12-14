@@ -40,6 +40,10 @@
   SQL, Python
 </p>
 
+<p>
+  [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](https://github.com/m-carini/m-carini.github.io/tree/main/custom_drug_tagging/)
+</p>
+
 
 ---
 [Fake News Classification Model](/pdf/sample_presentation.pdf)
