@@ -89,6 +89,8 @@ Model Evaluation: The final model's performance was evaluated on a separate test
 </p>
 
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)]([https://github.com/chloe-florit/chloe-florit.github.io/tree/main/fake_news_classification/](https://github.com/chloe-florit/chloe-florit.github.io/tree/f6bd62295cb70581bc0ab6dd1fe33f49e27cc8bb/fake_news_classification))
+
+
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
