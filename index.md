@@ -2,9 +2,8 @@
 
 ---
 
-### Category Name 1 
+### NOAA Climate Data
 
-[NOAA Climate Data]
 <p>
   <strong>Project overview:</strong>
   In this project, I used NOAA climate data to analyze temperature trends across various global weather stations and developed a database to support interactive data visualizations. Using Python, SQL, and Plotly Express, I structured the data and crafted a database that enables users to query specific temperature records by country, date range, and month.
@@ -46,7 +45,7 @@
 
 
 ---
-[Fake News Classification Model]
+### Fake News Classification Model
 
 <p>
 In this project, I developed a machine learning model to classify news articles as real or fake based on the content of their title, text, or a combination of both.
