@@ -2,49 +2,6 @@
 
 ---
 
-### NOAA Climate Data
-
-<p>
-  <strong>Project overview:</strong>
-  In this project, I used NOAA climate data to analyze temperature trends across various global weather stations and developed a database to support interactive data visualizations. Using Python, SQL, and Plotly Express, I structured the data and crafted a database that enables users to query specific temperature records by country, date range, and month.
-
-</p>
-<p>
-  After organizing the data, I wrote a query function to retrieve temperature data and a function to estimate yearly temperature increases at different stations. This function calculates linear temperature trends using linear regression on historical temperature data, producing a geographic scatter plot with points representing weather stations. The color intensity of each point reflects the estimated yearly increase in temperature at each station, creating a visual summary of warming trends over the specified period.
-
-</p>
-
-<p>
-  The final output is an interactive map that allows users to observe temperature changes across various regions, effectively highlighting the impact of climate change through localized temperature trends.
-</p>
-
-<div class="display">
-    {% include india-example.html %}
-</div>
-<p>
-  
-</p>
-
-<p>
-  <strong>
-    <em>Technical skills:</em>
-  </strong>
-  regression
-</p>
-<p>
-  <strong>
-    <em>Tools:</em>
-    
-  </strong>
-  SQL, Python
-</p>
-
-
-[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](https://github.com/chloe-florit/chloe-florit.github.io/blob/3c16fd1eaaad101f7579699ea4572db1448f4789/noaa_climate_data.ipynb)
-
-
-
----
 ### Fake News Classification Model
 
 <p>
@@ -89,6 +46,47 @@ Model Evaluation: The final model's performance was evaluated on a separate test
 
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](https://github.com/chloe-florit/chloe-florit.github.io/tree/f6bd62295cb70581bc0ab6dd1fe33f49e27cc8bb/fake_news_classification)
 
+---
+
+### NOAA Climate Data
+
+<p>
+  <strong>Project overview:</strong>
+  In this project, I used NOAA climate data to analyze temperature trends across various global weather stations and developed a database to support interactive data visualizations. Using Python, SQL, and Plotly Express, I structured the data and crafted a database that enables users to query specific temperature records by country, date range, and month.
+
+</p>
+<p>
+  After organizing the data, I wrote a query function to retrieve temperature data and a function to estimate yearly temperature increases at different stations. This function calculates linear temperature trends using linear regression on historical temperature data, producing a geographic scatter plot with points representing weather stations. The color intensity of each point reflects the estimated yearly increase in temperature at each station, creating a visual summary of warming trends over the specified period.
+
+</p>
+
+<p>
+  The final output is an interactive map that allows users to observe temperature changes across various regions, effectively highlighting the impact of climate change through localized temperature trends.
+</p>
+
+<div class="display">
+    {% include india-example.html %}
+</div>
+<p>
+  
+</p>
+
+<p>
+  <strong>
+    <em>Technical skills:</em>
+  </strong>
+  regression
+</p>
+<p>
+  <strong>
+    <em>Tools:</em>
+    
+  </strong>
+  SQL, Python
+</p>
+
+
+[![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](https://github.com/chloe-florit/chloe-florit.github.io/blob/3c16fd1eaaad101f7579699ea4572db1448f4789/noaa_climate_data.ipynb)
 
 ---
 
