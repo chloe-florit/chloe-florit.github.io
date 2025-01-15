@@ -92,11 +92,5 @@ Model Evaluation: The final model's performance was evaluated on a separate test
 
 ---
 
-
-
-
-
-
----
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
