@@ -88,6 +88,7 @@ Model Evaluation: The final model's performance was evaluated on a separate test
 
 [![Open Code](https://img.shields.io/badge/Jupyter-Open_Files-red?logo=Jupyter)](https://github.com/chloe-florit/chloe-florit.github.io/blob/3c16fd1eaaad101f7579699ea4572db1448f4789/noaa_climate_data.ipynb)
 
+---
 
 ### Dynamic Dashboard: Precipitation and Wind Patterns
 
