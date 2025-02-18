@@ -96,7 +96,7 @@ This project was developed as part of an exploration into extreme weather patter
 
 Zonal wind refers to winds moving west to east, while longitudinal (meridional) wind moves north to south. The MJO1D phase represents different stages of the Madden-Julian Oscillation (MJO), an atmospheric phenomenon that propagates eastward across the tropics and influences weather patterns worldwide, particularly precipitation.
 
-My analysis found a negative correlation between zonal wind and precipitation, particularly in May 2015, where weaker zonal winds corresponded with higher precipitation in the U.S. However, no consistent trend was observed between longitudinal wind and precipitation, as its effects depend more heavily on external weather systems. The second visualization examined precipitation across MJO phases, revealing that precipitation peaked at phase 6 and was lowest at phase 5. These phases correspond to different regions of convective activity:
+My analysis found a negative relationship between zonal wind and precipitation, particularly in May 2015, where weaker zonal winds corresponded with higher precipitation in the U.S. However, no consistent trend was observed between longitudinal wind and precipitation, as its effects depend more heavily on external weather systems. The second visualization examined precipitation across MJO phases, revealing that precipitation peaked at phase 6 and was lowest at phase 5. These phases correspond to different regions of convective activity:
 <ul>
 <li>Phase 5: Convection is centered over the Maritime Continent, typically leading to suppressed precipitation in the U.S.</li>
 <li>Phase 6: Convection shifts toward the western Pacific, often enhancing precipitation in certain U.S. regions due to increased atmospheric instability.</li>
@@ -193,6 +193,13 @@ To enhance real-time insights, I integrated a live precipitation map using WMS s
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+
+<p><strong><em>Sources:</em></strong>  
+  <a href="https://www.kaggle.com/competitions/widsdatathon2023/data" target="_blank">WIDS Climate Change Dataset 2023</a>,  
+  <a href="https://interworks.com/blog/ccrouch/2016/03/22/storm-chasing-tableau-how-create-weather-map/" target="_blank">Storm Chasing in Tableau</a>,  
+  <a href="http://mesonet.agron.iastate.edu/cgi-bin/wms/goes/conus_vis.cgi" target="_blank">CONUS GOES Visible Satellite</a>,  
+  <a href="http://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0q.cgi" target="_blank">CONUS NEXRAD Base Reflectivity</a>  
+</p>
 
 
 <p>
