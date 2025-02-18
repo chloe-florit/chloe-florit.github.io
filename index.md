@@ -92,11 +92,11 @@ Model Evaluation: The final model's performance was evaluated on a separate test
 
 ### Dynamic Dashboard: Precipitation and Wind Patterns
 
-This project was developed as part of an exploration into extreme weather patterns using Tableau. The dashboard includes two key visualizations: (1) Precipitation vs. Zonal and Longitudinal Wind and (2) Median Precipitation vs. MJO1D Phase.
+This project was developed as part of an exploration into extreme weather patterns in the U.S. using Tableau. The dashboard includes two key visualizations: (1) Precipitation vs. Zonal and Longitudinal Wind and (2) Median Precipitation vs. MJO1D Phase.
 
 Zonal wind refers to winds moving west to east, while longitudinal (meridional) wind moves north to south. The MJO1D phase represents different stages of the Madden-Julian Oscillation (MJO), an atmospheric phenomenon that propagates eastward across the tropics and influences weather patterns worldwide, particularly precipitation.
 
-Our analysis found a negative correlation between zonal wind and precipitation, particularly in May 2015, where stronger zonal winds corresponded with lower precipitation in some U.S. regions. However, no consistent trend was observed between longitudinal wind and precipitation, as its effects depend more heavily on external weather systems. The second visualization examined precipitation across MJO phases, revealing that precipitation peaked at phase 6 and was lowest at phase 5. These phases correspond to different regions of convective activity:
+My analysis found a negative correlation between zonal wind and precipitation, particularly in May 2015, where weaker zonal winds corresponded with higher precipitation in the U.S. However, no consistent trend was observed between longitudinal wind and precipitation, as its effects depend more heavily on external weather systems. The second visualization examined precipitation across MJO phases, revealing that precipitation peaked at phase 6 and was lowest at phase 5. These phases correspond to different regions of convective activity:
 <ul>
 <li>Phase 5: Convection is centered over the Maritime Continent, typically leading to suppressed precipitation in the U.S.</li>
 <li>Phase 6: Convection shifts toward the western Pacific, often enhancing precipitation in certain U.S. regions due to increased atmospheric instability.</li>
