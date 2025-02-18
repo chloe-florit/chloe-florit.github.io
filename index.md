@@ -168,23 +168,16 @@ This is my interactive precipitation Tableau dashboard. Below is the embedded vi
   var divElement = document.getElementById('viz1739756238808');
   var vizElement = divElement.getElementsByTagName('object')[0];
   
+  
   if (divElement.offsetWidth > 800) {
-    vizElement.style.minWidth = '420px';
-    vizElement.style.maxWidth = '650px';
     vizElement.style.width = '100%';
-    vizElement.style.minHeight = '587px';
-    vizElement.style.maxHeight = '887px';
-    vizElement.style.height = (divElement.offsetWidth * 0.6) + 'px';  // Adjust height to 60% of width
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
   } else if (divElement.offsetWidth > 500) {
-    vizElement.style.minWidth = '420px';
-    vizElement.style.maxWidth = '650px';
     vizElement.style.width = '100%';
-    vizElement.style.minHeight = '587px';
-    vizElement.style.maxHeight = '887px';
-    vizElement.style.height = (divElement.offsetWidth * 0.6) + 'px';  // Adjust height to 60% of width
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
   } else {
     vizElement.style.width = '100%';
-    vizElement.style.height = '550px';  // Set a fixed height for smaller screen sizes
+    vizElement.style.height = '827px';
   }
 
   var scriptElement = document.createElement('script');
