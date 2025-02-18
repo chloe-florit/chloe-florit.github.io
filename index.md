@@ -101,7 +101,7 @@ My analysis found a negative relationship between zonal wind and precipitation, 
 <li>Phase 5: Convection is centered over the Maritime Continent, typically leading to suppressed precipitation in the U.S.</li>
 <li>Phase 6: Convection shifts toward the western Pacific, often enhancing precipitation in certain U.S. regions due to increased atmospheric instability.</li>
 </ul>
-To enhance real-time insights, I integrated a live precipitation map using WMS servers from Iowa State, featuring the CONUS GOES Visible Satellite and NEXRAD Base Reflectivity. This interactive component allows users to compare historical trends with current precipitation patterns dynamically.
+To enhance real-time insights, I integrated a live precipitation map using WMS servers from Iowa State, featuring the CONUS GOES Visible Satellite and NEXRAD Base Reflectivity. 
 
 <div class='tableauPlaceholder' id='viz1739757168929' style='position: relative'>
   <noscript>
